@@ -11,3 +11,9 @@ npm install axios
 ```sh
 npm install --save styled-components
 ```
+
+-   React-tabs
+
+```sh
+npm install --save react-tabs
+```
