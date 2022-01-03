@@ -16,9 +16,9 @@ const Header = () => {
             <input
                 type="text"
                 placeholder="Digite o nome de usuário para pesquisar..."
-                onChange={submitGetUser}
+                onChange={event => setUsernameForSearch(event.target.value)}
             />
-            <button type="submit">
+            <button type="submit" onClick={submitGetUser}>
                 <span>Buscar</span>
             </button>
         </S.Wrapper>
