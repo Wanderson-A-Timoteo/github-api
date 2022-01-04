@@ -33,18 +33,22 @@ export const WrapperTab = styled(Tab)`
         box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.2);
     }
 `
-
 WrapperTab.tabsRole = 'Tab'
 
 export const WrapperTabPanel = styled(TabPanel)`
-    display: none;
     padding: 16px;
     border: 1px solid #ccc;
+    display: none;
     margin-top: -5px;
 
     &.is-selected {
         display: block;
     }
 `
-
 WrapperTabPanel.tabsRole = 'TabPanel'
+
+export const WrapperList = styled.div`
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+`

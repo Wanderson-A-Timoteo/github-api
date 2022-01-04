@@ -10,7 +10,6 @@ export const WrapperInfoUser = styled.div`
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    height: auto;
     margin-left: 8px;
     height: 200px;
 
@@ -33,7 +32,6 @@ export const WrapperInfoUser = styled.div`
 export const WrapperStatusCount = styled.div`
     display: flex;
     align-items: center;
-
     div {
         margin: 8px;
         text-align: center;

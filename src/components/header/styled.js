@@ -11,18 +11,15 @@ export const Wrapper = styled.div`
         border-radius: 8px;
         width: 100%;
         height: 44px;
-        padding: 4px;
-        outline: none;
+        padding: 8px;
         font-weight: 500;
     }
 
     button {
         background-color: #225ed8;
         padding: 8px 16px;
-        margin: 0 8px;
+        margin: 0 16px;
         border-radius: 8px;
-        font-weight: bold;
-        font-size: 16px;
 
         &:hover {
             background-color: #2c5282;
@@ -30,8 +27,8 @@ export const Wrapper = styled.div`
         }
 
         span {
-            color: #fff;
             font-weight: bold;
+            color: #ffff;
         }
     }
 `
